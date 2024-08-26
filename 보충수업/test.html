@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍길동의 홈페이지</title>
+  
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  
+  <div>
+
+    <h1>홍길동의 홈페이지</h1>
+
+    <!-- 1개 이상의 병합이 들어간 표 사용 -->
+    <h3>내 정보</h3>
+    <table border="1">
+      <tr>
+        <th>이름</th>
+        <td>홍길동</td>
+      </tr>
+
+      <tr>
+        <th>나이</th>
+        <td>20세</td>
+      </tr>
+
+      <tr>
+        <th rowspan="3">가족들</th>
+        <td>아빠</td>
+      </tr>
+
+      <tr>
+        <td>엄마</td>
+      </tr>
+
+      <tr>
+        <td>강아지</td>
+      </tr>
+    </table>
+
+    <!-- 3개 이상의 멀티미디어 사용  -->
+    <h3>내가 좋아하는 것</h3>
+    <img src="dog1.jpg" width="300px">
+    <img src="cat1.jpg" width="300px">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ze_PNcvWg3o?si=GDusIIrsxXOaZR-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+    <!-- 2개 이상의 하이퍼링크 사용 -->
+    <h3>내 포트폴리오</h3>
+    <a href="https://noonnu.cc/font_page/1438">홍길동의 블로그</a>
+    <br>
+    <a href="https://instagram.com/">홍길동의 인스타</a>
+
+    <!-- 3종류 이상의 사용자 입력 요소 사용 -->
+    <h3>저에게 연락하고 싶으실땐...</h3>
+
+    <fieldset>
+      <legend>Contact me</legend>
+
+      <form action="#">
+        이름 : <input type="text" name="userName"> <br>
+        이메일 : <input type="email" name="userEmail"> <br>
+        연락처 : <input type="tel" name="userTel"> <br>
+        <button>보내기</button>
+      </form>
+
+      <p>확인 후 연락드리겠습니다!</p>
+    </fieldset>
+
+    
+
+  </div>
+
+</body>
+</html>

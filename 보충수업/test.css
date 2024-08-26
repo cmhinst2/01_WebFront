@@ -1,0 +1,56 @@
+/* 
+- 7개 이상의 색상 사용
+
+- 2개 이상의 폰트 사용 
+*/
+
+@font-face {
+  font-family: 'EF_jejudoldam';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeeSeoyun';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'LeeSeoyun'; 
+}
+
+h1, h3 {
+  font-family: 'EF_jejudoldam';
+}
+
+/*  7개 이상의 색상 사용 */
+
+h1 {
+  color: chocolate;
+}
+
+h3 {
+  background-color: yellowgreen;
+  color: white;
+}
+
+table th {
+  background-color: yellow;
+}
+
+a {
+  color: black;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+fieldset > p {
+  font-weight: bold;
+  color: orangered;
+}
